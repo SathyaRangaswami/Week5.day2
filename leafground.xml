@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="3" name="Test" verbose="2" parallel="classes">
+    <classes>
+       <class name="week5.day2.assignment.ImageHtml"/>
+ <class name="week5.day2.assignment.RadioHtml"/>
+      <class name="week5.day2.assignment.CheckboxHtml"/>
+      <class name="week5.day2.assignment.LinkHtml"/>
+       <class name="week5.day2.assignment.DropdownHtml"/>
+      <class name="week5.day2.assignment.ButtonHtml"/> 
+      <class name="week5.day2.assignment.EditHtml"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
